@@ -25,6 +25,14 @@ Observed risk points are a weighted warning total, not a fraud probability or a 
 
 Shared funding or a transfer does not prove common wallet ownership. A quote does not prove future sellability. A liquidity lock does not remove mint, holder or market risks. Independent predictive accuracy remains unverified. See the [methodology](https://rugsignal.com/trust) and [accuracy status](https://rugsignal.com/accuracy).
 
+## Reading a report without confusing risk, coverage and price
+
+Start with the exact mint and observation time. Read established warnings before treating the core-domain count as a verdict: a completed domain can contain a warning, and a limited zero-point assessment is not proof of safety. Open Coverage & Limitations to identify the unresolved domain, then investigate the corresponding holder or pool evidence. The [authority guide](https://rugsignal.com/guides/mint-freeze-authorities) includes a read-only checking sequence and a clearly illustrative revoked-mint/active-freeze example. The [liquidity guide](https://rugsignal.com/guides/liquidity-risk) distinguishes pool value, withdrawal rights, lock expiry and a size-specific exit quote.
+
+The optional latest-price display is separate from the saved assessment. It polls a shared reference while actively viewed and may be delayed by provider freshness or quota limits. “Last fetched” is our successful source fetch, not the time of the last trade. It does not update holder balances, liquidity control, risk points or historical share cards. A displayed price or route quote is not a guaranteed executable sale.
+
+For a reproducible factual example, the [mint-control walkthrough](notes/mint-control-walkthrough.md) includes its original observation time, slot, sources and limitations. It is an educational artifact awaiting independent review, not a predictive-accuracy benchmark. These materials are maintained on behalf of RugSignal; no independent endorsement is implied.
+
 ## Stay informed and report corrections
 
 - [Product capabilities and limitations](https://rugsignal.com/ai-summary).
